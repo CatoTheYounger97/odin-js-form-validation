@@ -1,2 +1,2 @@
-# webdev-template
-A template for web development in VS Code. Using: Node, Webpack, Eslint and Prettier
+# odin-js-form-validation
+Demonstrate html form validaiton with JS. 
