@@ -1,0 +1,24 @@
+{
+  "name": "webdev-template",
+  "version": "1.0.0",
+  "description": "A template for web development in VS Code. Using: Node, Webpack, Eslint and Prettier",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^6.8.1",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "html-webpack-plugin": "^5.6.0",
+    "prettier": "3.1.1",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
