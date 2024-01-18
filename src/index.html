@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Form Validation</title>
+  </head>
+  <body>
+    <div id="container">
+      <form novalidate>
+        <div>
+          <label for="email">e-mail</label>
+          <input type="email" name="email" id="email" />
+        </div>
+        <div>
+          <label for="country">Country</label>
+          <input type="text" name="country" id="country" />
+        </div>
+        <div>
+          <label for="post-code">Post Code (UK)</label>
+          <input type="text" name="post-code" id="post-code" />
+        </div>
+        <div>
+          <label for="password">Password</label>
+          <input type="password" name="password" id="password" />
+        </div>
+        <div>
+          <label for="pass-confirm">Confirm Password</label>
+          <input type="password" name="pass-confirm" id="pass-confirm" />
+        </div>
+        <div>
+          <button type="submit" id="submit">Submit</button>
+          <button type="reset">Reset</button>
+        </div>
+      </form>
+      <div id="form-status"></div>
+    </div>
+  </body>
+</html>
