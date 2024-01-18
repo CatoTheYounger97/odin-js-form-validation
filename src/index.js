@@ -16,7 +16,7 @@ function setupForm() {
 
     if (form.checkValidity()) {
       console.log("submitted! :)");
-      formStatus.textContent = "Submission Successfull";
+      formStatus.textContent = "Submission Successfull! ^_^";
       alert("High Five!");
     } else {
       console.log("some fields still need to be filled");

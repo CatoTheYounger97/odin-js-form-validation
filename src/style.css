@@ -18,12 +18,34 @@ body {
   background-color: navy;
 }
 
-.TemplateText {
-  color: red;
-  text-align: center;
+form {
+  width: 400px;
+  margin: 0 auto;
 }
 
-form {
-  margin: auto;
-  display: block;
+form > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px;
+}
+
+form > div:last-child {
+  display: initial;
+}
+
+form input {
+  border-radius: 20px;
+}
+
+form input:valid {
+  border: 2px solid green;
+}
+
+form input:invalid {
+  border: 2px solid red;
+}
+
+#form-status {
+  text-align: center;
 }
